@@ -14,7 +14,7 @@ sidebar:
 
     # Sidebar links
     email: arnerateau@outlook.com
-    phone: +32473372872
+    phone: 0473372872
     timezone: Europe/Brussels # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
     website: https://arnerateau.github.io/  # Include the full website URL, including "http://" or "https://".
@@ -68,12 +68,12 @@ career-profile:
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
-# education:
-    # title: Education
-    #info:
-      #- degree: MSc in Computer Science
-       # university: University of London
-        #time: 2011 - 2012
+ education:
+     title: Education
+    info:
+      - degree: Wetenschappen-sport
+        School: Middenschool Geraardsbergen
+        time: 2015 - 2017
         #details: |
          # Describe your study here lorem ipsum dolor sit amet, consectetuer
           #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -82,9 +82,9 @@ career-profile:
           #pretium quis, sem.
            # - Bullet point
             #- Bullet point
-      #- degree: BSc in Applied Mathematics
-       # university: Bristol University
-        #time: 2007 - 2011
+      - degree: Economie-talen
+        School: Koninklijk Atheneum Geraardsbergen
+        time: 2017 - 2021
         #details: |
          # Describe your study here lorem ipsum dolor sit amet, consectetuer
           #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -93,16 +93,50 @@ career-profile:
           #pretium quis, sem.
            # - Bullet point
             #- Bullet point
+        course: Handelswetenschappen 
+        School: Universiteit Gent
+        time: 2021 
 
-#experiences:
- #   title: Experiences
-  #  info:
-   #   - role: Lead Developer
-    #    time: 2015 - Present
-     #   company: Startup Hubs, San Francisco
-      #  details: |
-       #   Describe your role here lorem ipsum dolor sit amet, consectetuer
-        #  adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        course: Psychologie 
+        School: Universiteit Gent
+        time: 2022
+
+        course: Programming
+        School: HoGent
+        time: 2023 - Present
+
+experiences:
+    title: Experiences
+    info:
+      - role: Restaurant staff member
+        time: 2018 - 2019
+        company: Provinciaal domein de Gavers
+        details: |
+        Responsibilities:
+
+          Operating the cash register.
+          Maintaining cleanliness of the terrace.
+          Restocking items as needed.
+
+      - role: Retail Associate
+        time: 2019
+        company: Vanderscheuren
+        details: |
+        Responsibilities:
+
+          Emptying shelves and preparing pallets.
+          Assembling pallets for delivery.
+          Ensuring the store is clean and organized
+
+      - role: Order Picker 
+        time: 2020 - Present
+        company: Distribution Center Delhaize 
+        details: |
+        Responsibilities:
+
+          Picking and assembling orders on pallets
+
+       # #  adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
          # Cum sociis natoque penatibus et magnis dis parturient montes,
           #nascetur ridiculus mus. Donec quam felis, ultricies nec,
           #pellentesque eu, pretium quis, sem. Nulla consequat massa quis
@@ -136,7 +170,7 @@ career-profile:
             #- Bullet point
 
 #certifications:
- #     title: Certifications
+      title: Drivers license A
   #    list:
    #     - name: CV Builder
     #      start: 2020
@@ -245,9 +279,9 @@ career-profile:
      ##   conference: "Comm. ACM 4 (1961), 51–55"
 
 #skills:
- #   title: Skills &amp; Proficiency
+ #   title: Drivers licence A
 #
- #   toolset:
+   # toolset:
   #    - name: Python & Django
    #     level: 98%
 
