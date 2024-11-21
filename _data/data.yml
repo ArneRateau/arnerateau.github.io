@@ -5,7 +5,7 @@
 sidebar:
     position: right # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Arne Rateau
@@ -68,12 +68,12 @@ sidebar:
      # penatibus et magnis dis parturient montes, nascetur ridiculus mus.
      # Donec quam felis, ultricies nec, pellentesque eu.
       #Second paragraph if required.
- education:
-     title: Education
-    info:
-      - degree: Wetenschappen-sport
-        School: Middenschool Geraardsbergen
-        time: 2015 - 2017
+ #education:
+  #   title: Education
+   # info:
+    #  - degree: Wetenschappen-sport
+     #   School: Middenschool Geraardsbergen
+      #  time: 2015 - 2017
         #details: |
          # Describe your study here lorem ipsum dolor sit amet, consectetuer
           #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -82,9 +82,9 @@ sidebar:
           #pretium quis, sem.
            # - Bullet point
             #- Bullet point
-      - degree: Economie-talen
-        School: Koninklijk Atheneum Geraardsbergen
-        time: 2017 - 2021
+#      - degree: Economie-talen
+ #       School: Koninklijk Atheneum Geraardsbergen
+  #      time: 2017 - 2021
         #details: |
          # Describe your study here lorem ipsum dolor sit amet, consectetuer
           #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -93,48 +93,48 @@ sidebar:
           #pretium quis, sem.
            # - Bullet point
             #- Bullet point
-        course: Handelswetenschappen 
-        School: Universiteit Gent
-        time: 2021 
+   #     course: Handelswetenschappen 
+    #    School: Universiteit Gent
+     #   time: 2021 
 
-        course: Psychologie 
-        School: Universiteit Gent
-        time: 2022
+      #  course: Psychologie 
+       # School: Universiteit Gent
+        #time: 2022
 
-        course: Programming
-        School: HoGent
-        time: 2023 - Present
+        #course: Programming
+        #School: HoGent
+        #time: 2023 - Present
 
-experiences:
-    title: Experiences
-    info:
-      - role: Restaurant staff member
-        time: 2018 - 2019
-        company: Provinciaal domein de Gavers
-        details: |
-        Responsibilities:
+#experiences:
+ #   title: Experiences
+  #  info:
+   #   - role: Restaurant staff member
+    #    time: 2018 - 2019
+     #   company: Provinciaal domein de Gavers
+      #  details: |
+       # Responsibilities:
 
-          Operating the cash register.
-          Maintaining cleanliness of the terrace.
-          Restocking items as needed.
+        #  Operating the cash register.
+         # Maintaining cleanliness of the terrace.
+          #Restocking items as needed.
 
-      - role: Retail Associate
-        time: 2019
-        company: Vanderscheuren
-        details: |
-        Responsibilities:
+#      - role: Retail Associate
+ #       time: 2019
+  ##      company: Vanderscheuren
+    #    details: |
+     #   Responsibilities:
 
-          Emptying shelves and preparing pallets.
-          Assembling pallets for delivery.
-          Ensuring the store is clean and organized
+      #    Emptying shelves and preparing pallets.
+       #   Assembling pallets for delivery.
+        #  Ensuring the store is clean and organized
 
-      - role: Order Picker 
-        time: 2020 - Present
-        company: Distribution Center Delhaize 
-        details: |
-        Responsibilities:
+##      - role: Order Picker 
+  #      time: 2020 - Present
+   #     company: Distribution Center Delhaize 
+    #    details: |
+     #   Responsibilities:
 
-          Picking and assembling orders on pallets
+      #    Picking and assembling orders on pallets
 
        # #  adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
          # Cum sociis natoque penatibus et magnis dis parturient montes,
@@ -170,7 +170,7 @@ experiences:
             #- Bullet point
 
 #certifications:
-      title: Drivers license A
+     # title: Drivers license A
   #    list:
    #     - name: CV Builder
     #      start: 2020
