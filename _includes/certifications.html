@@ -1,25 +1,20 @@
 {% assign certifications = site.data.data.sidebar.certifications %}
 {% if certifications %}
 <div class="certifications-container container-block">
-
-  <h2 class="container-block-title">
-    {{ certifications.title }}
-  </h2>
-
+  <h2 class="container-block-title">{{ certifications.title }}</h2>
   <ul class="list-unstyled certifications-list">
-    {% for cert in certifications.list %}
-    <li>
-      <strong>{{ cert.name }}</strong> - {{ cert.organization }}
-      {% if cert.start %} ({{ cert.start }}{% if cert.end %} - {{ cert.end }}{% endif %}){% endif %}
-      {% if cert.credentialurl %}
-      <br>
-      <a href="//{{ cert.credentialurl }}" target="_blank" rel="noreferrer nofollow noopener">
-        {{ cert.credentialname }}
-      </a>
-      {% endif %}
-    </li>
+    {% for certification in certifications.list %}
+      <li>
+        <strong>{{ certification.name }}</strong> - {{ certification.organization }}
+        {% if certification.start %} ({{ certification.start }}{% if certification.end %} - {{ certification.end }}{% endif %}){% endif %}
+        {% if certification.credentialurl %}
+        <br>
+        <a href="{{ certification.credentialurl }}" target="_blank" rel="noreferrer nofollow noopener">
+          {{ certification.credentialname }}
+        </a>
+        {% endif %}
+      </li>
     {% endfor %}
   </ul>
-
 </div><!--//certifications-->
-{% endif %} 
+{% endif %}

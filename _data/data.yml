@@ -1,34 +1,20 @@
-# Be aware that even a small syntax error here can lead to failures in output.
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  position: right
+  education: True
+  about: False
 
   # Profile information
   name: Arne Rateau
   tagline: Student Programming
-  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: profile.png
 
   # Sidebar links
   email: arnerateau@outlook.com
   phone: 0473372872
-  timezone: Europe/Brussels # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://arnerateau.github.io/  # Include the full website URL, including "http://" or "https://".
+  website: https://arnerateau.github.io/
   linkedin: Arne Rateau
-  xing:
   github: ArneRateau
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
   twitter: '@rateau_arne'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon:  # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
     title: Languages
@@ -48,27 +34,18 @@ sidebar:
       - item: Chess
         link: https://www.chess.com/member/felyx6
       - item: Cooking
-        link:
       - item: Technology
-        link:
-    
 
-  sidebar:
   certifications:
     title: Certifications
     list:
       - name: Driver's License B
         organization: Belgian Government
         start: 2021
-        end:
+        end: # Leave empty if no end date
         credentialid:
         credentialurl:
         credentialname:
-
-
-  
- 
-  
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by Arne Rateau
