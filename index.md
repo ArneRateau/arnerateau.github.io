@@ -19,11 +19,11 @@ Education:
         School: Universiteit Gent
         time: 2021 
 
-        course: Psychologie 
+        course: Psychology
         School: Universiteit Gent
         time: 2022
 
-        course: Programming
+        course: Associate degree in Programming
         School: HoGent
         time: 2023 - Present
 
@@ -60,4 +60,4 @@ Experiences:
        
 Certifications:
       
-      Drivers license A
+      Drivers license B
