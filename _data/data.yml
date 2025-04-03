@@ -53,16 +53,13 @@ sidebar:
         link:
       - item: Gaming
 
-  certifications:
-  title: Certifications
-  list:
-    - name: Driver's License B
-      organization: Belgian Government
-      start: 2021
-      credentialid: 
-      credentialurl: 
-      credentialname: 
-      details: Licensed to drive category B vehicles.
+  interests:
+    title: Certifications
+    info:
+      - item: Driver's license B
+        link: 
+
+  
  
   
 
