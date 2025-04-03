@@ -16,20 +16,26 @@
 
   p, ul, ol, table {
     page-break-inside: avoid; /* Avoid splitting paragraphs, lists, and tables */
+    margin: 0.5em 0; /* Add consistent spacing */
   }
 
   .experiences, .certifications {
-    page-break-before: always; /* Start new sections on a new page */
-    margin-bottom: 0; /* Remove extra spacing */
+    page-break-before: avoid; /* Avoid forcing new pages unnecessarily */
+    margin-bottom: 0.5em; /* Reduce spacing */
   }
 
-  .sidebar-wrapper, footer, nav {
-    display: none; /* Hide unnecessary elements for print */
+  .sidebar-wrapper {
+    display: block; /* Ensure the sidebar is visible */
+    float: left; /* Align the sidebar to the left */
+    width: 30%; /* Adjust the width of the sidebar */
+    margin-right: 1em; /* Add spacing between the sidebar and main content */
   }
 
   .main-wrapper {
-    width: 100%; /* Ensure content spans the full width */
-    float: none;
+    width: 65%; /* Adjust the width of the main content */
+    float: right; /* Align the main content to the right */
+    margin: 0; /* Remove unnecessary margins */
+    padding: 0; /* Remove unnecessary padding */
   }
 
   .skillset .level-bar-inner {
@@ -39,7 +45,7 @@
 
   img.avatar {
     filter: grayscale(1);
-    -webkit-filter: greyscale(1);
+    -webkit-filter: grayscale(1);
   }
 
   .main-wrapper .time {
@@ -49,7 +55,7 @@
   }
 
   .remove-container.container-block {
-    display: none;
+    display: none; /* Hide elements marked as unnecessary */
   }
 
   .fa-inverse,
@@ -62,5 +68,10 @@
   .main-wrapper > *:last-child {
     margin-bottom: 0;
     page-break-after: auto; /* Avoid forcing a new page */
+  }
+
+  /* Add spacing between sections */
+  .main-wrapper > * {
+    margin-bottom: 0.5em;
   }
 }
