@@ -61,6 +61,3 @@ Experiences:
         Responsibilities:
 
           Picking and assembling orders on pallets
-
-      - role: Programming
-        time: 2021 - Present
