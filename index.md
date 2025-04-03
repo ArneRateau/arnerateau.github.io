@@ -26,11 +26,16 @@ Education:
         course: Associate degree in Programming
         School: HoGent
         time: 2023 - Present
+        details: Experience with: 
+                  -C#
+                  -MySQL
+                  -HTML/CSS
+                  -JavaScript
 
 Experiences:
     
       - role: Restaurant staff member
-        time: 2018 - 2019
+        time: 2018 - 2019(Vacations)
         company: Provinciaal domein de Gavers
        
         Responsibilities:
@@ -40,7 +45,7 @@ Experiences:
           Restocking items as needed.
 
       - role: Retail Associate
-        time: 2019
+        time: 2019(Vacation)
         company: Vanderscheuren
        
         Responsibilities:
@@ -50,9 +55,12 @@ Experiences:
           Ensuring the store is clean and organized
 
       - role: Order Picker 
-        time: 2020 - Present
+        time: 2020 - 2024(Vacations)
         company: Distribution Center Delhaize 
      
         Responsibilities:
 
           Picking and assembling orders on pallets
+
+      - role: Programming
+        time: 2021 - Present

@@ -40,7 +40,7 @@ sidebar:
     title: Certifications
     list:
       - name: Driver's License B
-        organization: Belgian Government
+        organization: 
         start: 2021
         end: # Leave empty if no end date
         credentialid:
