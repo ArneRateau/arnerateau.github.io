@@ -20,6 +20,7 @@
 
   .experiences, .certifications {
     page-break-before: always; /* Start new sections on a new page */
+    margin-bottom: 0; /* Remove extra spacing */
   }
 
   .sidebar-wrapper, footer, nav {
@@ -55,5 +56,11 @@
   .fa-inverse:after,
   .fa-inverse:before {
     color: #ffffff !important;
+  }
+
+  /* Fix for content spilling onto a new page */
+  .main-wrapper > *:last-child {
+    margin-bottom: 0;
+    page-break-after: auto; /* Avoid forcing a new page */
   }
 }
