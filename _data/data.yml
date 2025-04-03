@@ -51,11 +51,14 @@ sidebar:
         link:
       - item: Technology
         link:
+      - item: Gaming
 
   certifications:
     title: Certifications
     info:
-      - item: Drivers license B
+      - item: Driver's License B
+        link: 
+  
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by Arne Rateau
