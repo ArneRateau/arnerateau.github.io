@@ -56,8 +56,3 @@ Experiences:
         Responsibilities:
 
           Picking and assembling orders on pallets
-
-       
-Certifications:
-      
-      Drivers license B
